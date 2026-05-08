@@ -22,7 +22,7 @@ public:
     }
 
     
-    void BFS(int s) {
+    void DFS(int s) {
        
         vector<bool> visited(V, false);
         queue<int> q;
